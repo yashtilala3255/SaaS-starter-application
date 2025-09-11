@@ -140,6 +140,3 @@ Make sure to set all environment variables in **Vercel Project Settings → Envi
 
 ---
 
-## 📜 License
-
-MIT License © 2025 Your Name
