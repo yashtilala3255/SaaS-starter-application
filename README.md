@@ -63,18 +63,18 @@ README.md
 
    ```bash
    # Stripe Keys
-   STRIPE_SECRET_KEY=sk_test_1234567890abcdef
-   NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_1234567890abcdef
+   STRIPE_SECRET_KEY=sk_test_123....
+   NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_123....
 
    # Stripe Price IDs
-   STRIPE_PRO_PRICE_ID=price_1S67aZR5NhqYWCXrQtIO2fiO
-   STRIPE_ENTERPRISE_PRICE_ID=price_1QcYXYZuVw12345abcdEFgh
+   STRIPE_PRO_PRICE_ID=price_123....
+   STRIPE_ENTERPRISE_PRICE_ID=price_123....
 
    # Stripe Webhooks
-   STRIPE_WEBHOOK_SECRET=whsec_1234567890abcdef
+   STRIPE_WEBHOOK_SECRET=whsec_123....
 
    # App URL
-   NEXT_PUBLIC_APP_URL=https://v0.app/chat/saa-s-starter-application-jR7MC79FBF9
+   NEXT_PUBLIC_APP_URL=https://v0.app/chat/saa-s-starter......
 
    # Supabase
    NEXT_PUBLIC_SUPABASE_URL=https://xyzcompany.supabase.co
