@@ -1,81 +1,30 @@
-# 🚀 SaaS Starter
+# SaaS starter application
 
-A modern **SaaS Starter Kit** built with **Node.js, Express, React, TailwindCSS, and MongoDB**.  
-This starter provides authentication, billing, and a clean UI — so you can focus on building your SaaS product faster.
+*Automatically synced with your [v0.app](https://v0.app) deployments*
 
-![SaaS Starter](https://img.shields.io/badge/Version-1.0.0-brightgreen)
-![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)
-![React](https://img.shields.io/badge/React-18-blue)
-![License](https://img.shields.io/badge/License-MIT-blue)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/yashtilala3255s-projects/v0-saa-s-starter-application)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/dmo6EXlqF3R)
 
----
+## Overview
 
-## ✨ Features
+This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
+Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
 
-### 🔐 Authentication & Security
-- **JWT-based Authentication** with secure token management
-- **Session-based Auth** alternative ready
-- **OAuth 2.0 Integration** ready (Google, GitHub, etc.)
-- **Password Reset** flow with email templates
-- **Email Verification** for new signups
-- **Role-based Access Control** (RBAC) foundation
+## Deployment
 
-### 💳 Payments & Billing
-- **Stripe Integration** for subscription management
-- **Multiple Pricing Tiers** setup
-- **Recurring Billing** with webhook handling
-- **Payment Method Management**
-- **Invoice Generation** and history
-- **Trial Periods** support
+Your project is live at:
 
-### 📊 Dashboard & Analytics
-- **Modern Dashboard** with key metrics
-- **Analytics-ready** components and layout
-- **User Management** interface
-- **Subscription Analytics**
-- **Revenue Tracking** foundation
+**[https://vercel.com/yashtilala3255s-projects/v0-saa-s-starter-application](https://vercel.com/yashtilala3255s-projects/v0-saa-s-starter-application)**
 
-### 🎨 UI/UX Features
-- **Dark/Light Mode** toggle with system preference detection
-- **Fully Responsive** design (mobile, tablet, desktop)
-- **TailwindCSS** with custom design system
-- **Loading States** and error handling
-- **Accessibility** (a11y) best practices
+## Build your app
 
-### ⚡ Technical Excellence
-- **API-first Architecture** (RESTful + GraphQL ready)
-- **Modular Component Structure**
-- **TypeScript Ready** (easy migration)
-- **Performance Optimized**
-- **SEO-friendly** setup
+Continue building your app on:
 
----
+**[https://v0.app/chat/projects/dmo6EXlqF3R](https://v0.app/chat/projects/dmo6EXlqF3R)**
 
-## 🛠️ Tech Stack
+## How It Works
 
-### Frontend
-- **React 18** - UI library with hooks
-- **TailwindCSS** - Utility-first CSS framework
-- **Axios** - HTTP client for API calls
-- **React Router** - Client-side routing
-- **Context API** - State management
-
-### Backend
-- **Node.js** - Runtime environment
-- **Express.js** - Web framework
-- **JWT** - JSON Web Tokens for auth
-- **bcrypt** - Password hashing
-- **CORS** - Cross-origin resource sharing
-
-### Database & Services
-- **MongoDB** - NoSQL database
-- **Mongoose** - MongoDB object modeling
-- **Stripe API** - Payment processing
-- **Nodemailer** - Email functionality
-
-### Development & Deployment
-- **Docker** - Containerization
-- **Vercel/Netlify** - Frontend hosting
-- **Render/Heroku** - Backend hosting
-- **MongoDB Atlas** - Cloud database
-
+1. Create and modify your project using [v0.app](https://v0.app)
+2. Deploy your chats from the v0 interface
+3. Changes are automatically pushed to this repository
+4. Vercel deploys the latest version from this repository
