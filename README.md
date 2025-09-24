@@ -1,30 +1,99 @@
-# SaaS starter application
+# 🚀 SaaS Starter
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A modern **SaaS Starter Kit** built with **Node.js, Express, React, TailwindCSS, and MongoDB**.  
+This starter provides authentication, billing, and a clean UI — so you can focus on building your SaaS product faster.  
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/yashtilala3255s-projects/v0-saa-s-starter-application)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/dmo6EXlqF3R)
+---
 
-## Overview
+## ✨ Features
+- 🔐 **Authentication** (JWT / Session-based, ready for OAuth)
+- 👤 **User Management** (signup, login, profile, password reset)
+- 💳 **Stripe Integration** (subscription billing setup)
+- 📊 **Dashboard** with analytics-ready layout
+- 🌗 **Dark Mode** support
+- 📱 **Fully Responsive** (mobile, tablet, desktop)
+- 🛠️ **API-first architecture** (REST / GraphQL ready)
+- ⚡ **Modern Tech Stack** (React + Tailwind + Node.js + MongoDB)
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+---
 
-## Deployment
+## 🛠️ Tech Stack
+- **Frontend:** React, TailwindCSS, Axios  
+- **Backend:** Node.js, Express, JWT  
+- **Database:** MongoDB (Mongoose)  
+- **Payments:** Stripe API  
+- **Auth:** JWT / Session + bcrypt  
+- **Deployment:** Docker / Vercel / Render  
 
-Your project is live at:
+---
 
-**[https://vercel.com/yashtilala3255s-projects/v0-saa-s-starter-application](https://vercel.com/yashtilala3255s-projects/v0-saa-s-starter-application)**
+## 📂 Project Structure
+saas-starter/
+│── client/ # React frontend
+│ ├── src/ # Components, pages, services
+│ └── public/ # Static assets
+│
+│── server/ # Node.js backend
+│ ├── routes/ # API routes
+│ ├── models/ # MongoDB models
+│ ├── controllers/ # Logic for routes
+│ └── utils/ # JWT, middleware, helpers
+│
+│── .env.example # Environment variables
+│── package.json # Root config
+│── README.md # Documentation
 
-## Build your app
 
-Continue building your app on:
+---
 
-**[https://v0.app/chat/projects/dmo6EXlqF3R](https://v0.app/chat/projects/dmo6EXlqF3R)**
+## ⚙️ Installation
 
-## How It Works
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/saas-starter.git
+   cd saas-starter
+2. **Install dependencies**
+    # Backend
+cd server
+npm install
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+# Frontend
+cd ../client
+npm install
+
+3. **Setup environment variables**
+
+Create .env files in server/ and client/.
+
+Example .env for backend:
+
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/saasdb
+JWT_SECRET=yourSuperSecretKey
+STRIPE_SECRET_KEY=your_stripe_secret
+
+4. **Run the project**
+
+# Backend
+cd server
+npm run dev
+
+# Frontend
+cd ../client
+npm start
+
+
+🚀 Deployment
+
+1. Frontend: Deploy to Vercel/Netlify.
+2. Backend: Deploy to Render/Heroku/DigitalOcean.
+3. Database: MongoDB Atlas (cloud-based).
+4. Environment: Use .env.production for production configs.
+
+🧑‍💻 Contribution
+
+1. Fork the repo
+2. Create a feature branch (git checkout -b feature-name)
+3. Commit changes (git commit -m "Added feature XYZ")
+4. Push branch (git push origin feature-name)
+5. Open a Pull Request 🎉
